@@ -33,7 +33,7 @@ Para ejecutar este proyecto en tu estación de trabajo InGen, sigue estos pasos:
 
 ```
   Bash
-  git clone 
+  git clone https://github.com/lucypelaez/PIPELINE_ML.git
 ```
 2. Crear y activar el entorno virtual:
 ```
