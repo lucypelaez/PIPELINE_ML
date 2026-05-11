@@ -1,4 +1,4 @@
-# 🦖 InGen ML Division: Raptor Behavior Prediction & Safety Management
+# 🧬 Operaciones Jurásicas: Inteligencia Artificial aplicada a la Contención Biológica
 
 ![InGen Logo](https://img.shields.io/badge/Status-Active_Research-red)
 ![Department](https://img.shields.io/badge/Department-Behavioral_Research-blue)
@@ -22,3 +22,39 @@ jurassic-pipeline-ml/
 │   └── 01_entrenamiento_raptores.ipynb      # El Pipeline paso a paso (EDA, Prep, Model)
 ├── requirements.txt           # Dependencias para ejecutar el laboratorio
 └── README.md                  # Manual de operaciones (esta guía)
+```
+---
+
+## 🛠️ Instalación y Configuración
+
+Para ejecutar este proyecto en tu estación de trabajo InGen, sigue estos pasos:
+
+1. Clonar el repositorio:
+
+```
+  Bash
+  git clone 
+```
+2. Crear y activar el entorno virtual:
+```
+  Bash
+  python -m venv .venv
+  .venv\Scripts\activate
+```
+3. Instalar dependencias:
+```
+  Bash
+  pip install -r requirements.txt
+```
+---
+## 📋 El Ejercicio para Compañeros
+Este repositorio está diseñado para que lo explores en este orden:
+
+**1. Fase de Negocio:** Lee el archivo .md en la carpeta docs. Comprende el problema del Threshold y la importancia del Recall en un entorno donde un error significa un dinosaurio suelto.
+
+**2. Fase Técnica:** Práctica guiada ya resuelta. Abre el Notebook y ejecuta las celdas. Verás cómo los datos de biosensores (Hambre, Estrés Vocal, etc.) se transforman en una predicción de probabilidad.
+
+Desafío Final: Al final del Notebook, intenta ajustar el modelo para reducir las falsas alarmas sin dejar que el riesgo de ataque suba del 10%.
+```
+"Sus científicos estaban tan preocupados por si podían hacerlo o no, que no se detuvieron a pensar si debían hacerlo." > — Dr. Ian Malcolm
+```
