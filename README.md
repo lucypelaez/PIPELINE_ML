@@ -9,7 +9,7 @@ Bienvenido al repositorio oficial del **Departamento de Investigación Conductua
 
 Este repositorio tiene como objetivo demostrar un **Pipeline de Machine Learning completo**, vinculando la toma de decisiones estratégicas con la implementación técnica. El proyecto se divide en dos grandes ejes:
 
-1.  **Marco Estratégico (`/docs/estrategias_gestion_riesgo.md`)**: Define por qué InGen necesita IA, cómo medimos el éxito (ROI de seguridad) y cómo gestionamos las falsas alarmas para mantener el parque rentable.
+1.  **Marco Estratégico (`/docs/estrategias_gestion_riesgo.md`)**: Define por qué InGen necesita IA, cómo medimos el éxito y cómo gestionamos las falsas alarmas para mantener el parque rentable.
 2.  **Motor Predictivo (`/notebooks/ 01_entrenamiento_raptores.ipynb`)**: Un modelo de clasificación binaria (Decision Tree) entrenado con datos de biosensores para predecir intentos de ataque en tiempo real.
 
 ## 🚀 Estructura del Repositorio
@@ -17,11 +17,12 @@ Este repositorio tiene como objetivo demostrar un **Pipeline de Machine Learning
 ```text
 jurassic-pipeline-ml/
 ├── docs/               
-│   └── estrategia_gestion_riesgo.md # Estrategia de gestión de seguridad y negocio
+    └── Glosario.md 
+│   └── estrategia_gestion_riesgo.md 
 ├── notebooks/          
-│   └── 01_entrenamiento_raptores.ipynb      # El Pipeline paso a paso (EDA, Prep, Model)
-├── requirements.txt           # Dependencias para ejecutar el laboratorio
-└── README.md                  # Manual de operaciones (esta guía)
+│   └── 01_entrenamiento_raptores.ipynb      
+├── requirements.txt           
+└── README.md                  
 ```
 ---
 
@@ -55,6 +56,9 @@ Este repositorio está diseñado para que lo explores en este orden:
 **2. Fase Técnica:** Práctica guiada ya resuelta. Abre el Notebook y ejecuta las celdas. Verás cómo los datos de biosensores (Hambre, Estrés Vocal, etc.) se transforman en una predicción de probabilidad.
 
 Desafío Final: Al final del Notebook, intenta ajustar el modelo para reducir las falsas alarmas sin dejar que el riesgo de ataque suba del 10%.
-```
-"Sus científicos estaban tan preocupados por si podían hacerlo o no, que no se detuvieron a pensar si debían hacerlo." > — Dr. Ian Malcolm
-```
+
+---
+
+## 🔍 ¿Confundido con los términos? 
+
+Consulta el Glosario Técnico de InGen para entender la terminología de Machine Learning utilizada en el proyecto, disponible en la carpeta docs del repositorio.
