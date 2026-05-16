@@ -1,6 +1,6 @@
 #---- Modelos serializados ----
-*.joblib
-*.pkl
+.joblib
+.pkl
 
 # ----Entorno virtual-----
 .venv/
