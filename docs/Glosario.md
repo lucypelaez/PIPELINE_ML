@@ -27,9 +27,13 @@
 
 * **Train/Test Split (Protocolo de Simulación) ✂️:** Dividimos los datos. Técnica para evaluar el modelo. Entrenamos a la IA con una parte de los datos (70-80%) y guardamos el resto para ver si es capaz de predecir ataques que nunca ha visto.
 
+* **Data Leakage:** Ocurre cuando el modelo recibe información que no debería conocer durante el entrenamiento, haciendo que las métricas parezcan mejores de lo que realmente serán en el mundo real.
+
 * **Validación cruzada:** La validación cruzada consiste en dividir repetidamente los datos disponibles en subconjuntos, entrenar el modelo con algunos de ellos y validarlo con los subconjuntos restantes. La principal ventaja de la validación cruzada es que proporciona una estimación más sólida e imparcial del rendimiento del modelo en comparación con el método de validación tradicional.
 
-### 📊 Evaluación: El Semáforo de Peligro
+* **GridSearchCV:** Método que prueba automáticamente distintas configuraciones del modelo utilizando validación cruzada.”
+
+### 📊 Evaluación: El Semáforo de Peligro 
 ---
 * **Semilla de Reproducibilidad (Random State):** Número fijo (generalmente 42) que asegura que el azar sea siempre el mismo, permitiendo que el experimento se repita con resultados idénticos.
 
