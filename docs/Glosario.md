@@ -27,6 +27,8 @@
 
 * **Train/Test Split (Protocolo de Simulación) ✂️:** Dividimos los datos. Técnica para evaluar el modelo. Entrenamos a la IA con una parte de los datos (70-80%) y guardamos el resto para ver si es capaz de predecir ataques que nunca ha visto.
 
+* **Validación cruzada:** La validación cruzada consiste en dividir repetidamente los datos disponibles en subconjuntos, entrenar el modelo con algunos de ellos y validarlo con los subconjuntos restantes. La principal ventaja de la validación cruzada es que proporciona una estimación más sólida e imparcial del rendimiento del modelo en comparación con el método de validación tradicional.
+
 ### 📊 Evaluación: El Semáforo de Peligro
 ---
 * **Semilla de Reproducibilidad (Random State):** Número fijo (generalmente 42) que asegura que el azar sea siempre el mismo, permitiendo que el experimento se repita con resultados idénticos.
@@ -70,4 +72,4 @@ Las siguientes tablas comparan los diferentes escenarios de riesgo que enfrentam
 
                 Los conceptos anteriores se materializan en el código.
                 Para ver cómo estas métricas afectan al rendimiento real del sistema,
-                acceda al archivo: 👉 notebooks/01_entrenamiento_raptores.ipynb
+                accede al archivo: 👉 notebooks/01_pipeline_raptores.ipynb
