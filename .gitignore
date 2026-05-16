@@ -1,4 +1,8 @@
-# Entorno virtual
+#---- Modelos serializados ----
+*.joblib
+*.pkl
+
+# ----Entorno virtual-----
 .venv/
 venv/
 env/
