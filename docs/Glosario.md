@@ -72,7 +72,7 @@ Las siguientes tablas comparan los diferentes escenarios de riesgo que enfrentam
 
 ---
 
-### 🛠️ Protocolo de ImplementaciónNota para el Analista:
+### 🛠️ Protocolo de Implementación Nota para el Analista:
 
                 Los conceptos anteriores se materializan en el código.
                 Para ver cómo estas métricas afectan al rendimiento real del sistema,
