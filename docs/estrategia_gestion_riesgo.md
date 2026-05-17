@@ -26,6 +26,7 @@ Distancia_presa| Distancia entre el raptor y el humano más cercano.
 Temperatura| Factor ambiental que afecta el metabolismo.
 Vocalizaciones| Nivel de estrés detectado por sensores acústicos. 
 En_manada| modo de caza, en solitario o en grupo
+Especie| Utahraptor, Deinonychus, Velocirraptor
 
     Considerar nuevas variables como por ejemplo: estado_valla (Integridad del sensor de corriente en el perímetro). ⚡
 
