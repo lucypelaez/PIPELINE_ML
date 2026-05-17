@@ -64,3 +64,9 @@ Desafío Final: Al final del Notebook, intenta ajustar el modelo para reducir la
 ## 🔍 ¿Confundido con los términos? 
 
 Consulta el Glosario Técnico de InGen para entender la terminología de Machine Learning utilizada en el proyecto, disponible en la carpeta docs del repositorio.
+
+Y para los más curiosos, que tengan interés de aprender algo más sobre las tres especies de dinosaurios, os dejo un enlace para que os adentreis en el fantástico mundo de estas especies extintas:
+
+[Utahraptor](https://es.wikipedia.org/wiki/Utahraptor_ostrommaysi)  
+[Deinonychus](https://es.wikipedia.org/wiki/Deinonychus_antirrhopus)  
+[Velocirraptor](https://es.wikipedia.org/wiki/Velociraptor) 
